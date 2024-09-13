@@ -2,5 +2,5 @@ resources:
   - ../../base
 
 namespace: myuser-dev
-namePrefix: dev-${var:=default}
+namePrefix: ${my_name_prefix:=dev}
 
